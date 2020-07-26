@@ -25,6 +25,7 @@ git checkout -b new-branch origin/develop
 git add <newfile or . to all files>
 git commit -m "second commit from new branch"
 git push -u origin new-branch
+git pull
 ```
 
 ## Pull request
@@ -33,6 +34,7 @@ git push -u origin new-branch
 git add README.md
 git commit -m "Before pull request"
 git push -u origin new-branch
+git pull
 ```
 
 ## Checkout develop changes
