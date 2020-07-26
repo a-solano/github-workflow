@@ -27,5 +27,4 @@ git push -u origin new-branch
 git add README.md
 git commit -m "Before pull request"
 git push -u origin new-branch
-git request-pull v1.0 origin develop:new-branch
 ```
