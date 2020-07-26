@@ -6,8 +6,14 @@
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/<sername>/<repository name>.git
+git remote add origin https://github.com/<username>/<repository name>.git
 git push -u origin master
+```
+
+## Clone Repo
+
+```shell
+git clone https://github.com/<username>/<repo name>.git
 ```
 
 ## New Branch
@@ -34,4 +40,10 @@ git push -u origin new-branch
 ```shell
 git checkout develop
 git pull
+```
+
+## Remove local branch
+
+```shell
+git branch -d <branch name>
 ```
