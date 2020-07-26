@@ -28,3 +28,10 @@ git add README.md
 git commit -m "Before pull request"
 git push -u origin new-branch
 ```
+
+## Checkout develop changes
+
+```shell
+git checkout develop
+git pull
+```
