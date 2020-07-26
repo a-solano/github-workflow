@@ -20,3 +20,12 @@ git add <newfile or . to all files>
 git commit -m "second commit from new branch"
 git push -u origin new-branch
 ```
+
+## Pull request
+
+```shell
+git add README.md
+git commit -m "Before pull request"
+git push -u origin new-branch
+git request-pull v1.0 origin develop:new-branch
+```
