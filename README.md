@@ -6,8 +6,14 @@
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/<sername>/<repository name>.git
+git remote add origin https://github.com/<username>/<repository name>.git
 git push -u origin master
+```
+
+## Clone Repo
+
+```shell
+git clone https://github.com/<username>/<repo name>.git
 ```
 
 ## New Branch
@@ -19,6 +25,7 @@ git checkout -b new-branch origin/develop
 git add <newfile or . to all files>
 git commit -m "second commit from new branch"
 git push -u origin new-branch
+git pull
 ```
 
 ## Pull request
@@ -27,6 +34,7 @@ git push -u origin new-branch
 git add README.md
 git commit -m "Before pull request"
 git push -u origin new-branch
+git pull
 ```
 
 ## Checkout develop changes
@@ -34,4 +42,10 @@ git push -u origin new-branch
 ```shell
 git checkout develop
 git pull
+```
+
+## Remove local branch
+
+```shell
+git branch -d <branch name>
 ```
